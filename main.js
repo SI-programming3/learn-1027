@@ -2,7 +2,7 @@ import embed from "vega-embed";
 import { spec } from "./spec.js";
 import "./style.css";
 
-embed("#app", spec);
+embed("#app", spec, { renderer: "svg" });
 
 /*
 document.querySelector('#app').innerHTML = `
